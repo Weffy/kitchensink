@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\classes-4c0a2456d7efe2fde8f5cd1331da90f6f03f7522.jar" />
+    </item>
+    <item
+        jar="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\classes-d6e9d8337c38c60c84ae3e5e731f4d3d8ea46ff7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-dc942f9ea049d71c27f6f4164f398c1bfeb9a173.jar" />
+    </item>
+    <item
+        jar="C:\Users\Krirk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-19c9ed6bfe4d32e8d144199a608da065f5550400.jar" />
+    </item>
+
+</items>

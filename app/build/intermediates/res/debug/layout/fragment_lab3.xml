@@ -1,0 +1,18 @@
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="@dimen/spacing_normal"
+	android:id="@+id/lab3_fragment"
+	tools:context=".Lab3Fragment"
+	>
+
+    <TextView
+    	android:text="@string/lab3"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elev_small"
+        />
+</FrameLayout>
+<!-- From: file:/C:/Users/Krirk/AndroidStudioProjects/kitchensink/app/src/main/res/layout/fragment_lab3.xml -->

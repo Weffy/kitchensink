@@ -1,0 +1,94 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="@dimen/spacing_normal"
+	android:orientation="vertical"
+	android:id="@+id/main_fragment"
+	tools:context=".MainFragment"
+	android:layout_weight="1"
+	>
+ <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+  <ImageView
+    android:id="@+id/kitchensink"
+    android:layout_width="480dp"
+    android:layout_height="240dp"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/kitchensink"
+    android:layout_weight="1"
+    android:scaleType="fitXY"
+  />
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:text="Topics in Computer Science"
+    	  style="@style/textHeader"
+    	  />
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:text="Android Development"
+    	  style="@style/textHeader2"
+    	  />
+    	<ImageView
+    		android:id="@+id/divider"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center_horizontal"
+    		android:src="@drawable/divider"
+    		/>
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:text="@string/resources"
+    	  style="@style/textSubHeader"
+    	  />
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:linksClickable="true"
+    	  android:autoLink="web"
+    	  android:text="@string/syllabus"
+    	  />
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:linksClickable="true"
+    	  android:autoLink="web"
+    	  android:text="@string/fundamentals"
+    	  />
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:text="@string/instructor"
+    	  style="@style/textNormal"
+    	  />
+    	<TextView
+    	  android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:linksClickable="true"
+    	  android:autoLink="email"
+    	  android:text="@string/email"
+    	  style="@style/textNormal"
+    	  />
+  </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

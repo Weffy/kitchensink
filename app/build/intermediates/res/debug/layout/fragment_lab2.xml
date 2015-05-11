@@ -1,0 +1,69 @@
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="@dimen/spacing_normal"
+	android:id="@+id/lab2_fragment"
+	tools:context=".Lab2Fragment"
+	>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|bottom">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/off"
+            android:id="@+id/off"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low"
+            android:id="@+id/lo" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/med"
+            android:id="@+id/med" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high"
+            android:id="@+id/hi" />
+    </LinearLayout>
+
+    <lehman.android.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="346dp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+    <LinearLayout
+
+        android:layout_width="121dp"
+        android:layout_height="251dp"
+        android:orientation="vertical"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/useFan1"
+            android:id="@+id/fan1" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tavarezFan"
+            android:id="@+id/fan2" />
+
+    </LinearLayout>
+</FrameLayout>
+<!-- From: file:/C:/Users/Krirk/AndroidStudioProjects/kitchensink/app/src/main/res/layout/fragment_lab2.xml -->

@@ -1,0 +1,5 @@
+C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\classes\debug
+C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-19c9ed6bfe4d32e8d144199a608da065f5550400.jar
+C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-dc942f9ea049d71c27f6f4164f398c1bfeb9a173.jar
+C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\classes-d6e9d8337c38c60c84ae3e5e731f4d3d8ea46ff7.jar
+C:\Users\Krirk\AndroidStudioProjects\kitchensink\app\build\intermediates\pre-dexed\debug\classes-4c0a2456d7efe2fde8f5cd1331da90f6f03f7522.jar
